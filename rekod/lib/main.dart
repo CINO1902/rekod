@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
-import 'package:rekod/feature/features/onboarding/presentation/pages/login.dart';
 import 'package:rekod/features/onboarding/presentation/pages/homepage.dart';
+import 'package:rekod/features/onboarding/presentation/pages/login.dart';
 import 'package:rekod/features/payment/presentation/pages/payment.dart';
 import 'package:rekod/features/qrgenerate/presentation/pages/generatepayload.dart';
 import 'package:rekod/features/qrgenerate/presentation/pages/qrcode.dart';
