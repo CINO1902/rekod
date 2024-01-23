@@ -68,11 +68,14 @@ class _homeState extends State<home> {
                 ),
                 const Gap(30),
                 ActionDirect(
-                    title: 'Sign In/Out a User',
-                    subtitle: 'Streamlining User checkin and checkout',
-                    onTap: () {},
-                    image: AppAssets.user,
-                    active: false),
+                  title: 'Sign In/Out a User',
+                  subtitle: 'Streamlining User checkin and checkout',
+                  onTap: () {
+                    Navigator.pushNamed(context, '/payloadgenerate');
+                  },
+                  image: AppAssets.user,
+                  // active: false,
+                ),
                 const Gap(30),
                 ActionDirect(
                     title: 'View Records',
