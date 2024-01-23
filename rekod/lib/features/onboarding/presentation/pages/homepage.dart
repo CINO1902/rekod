@@ -71,7 +71,7 @@ class _homeState extends State<home> {
                   title: 'Sign In/Out a User',
                   subtitle: 'Streamlining User checkin and checkout',
                   onTap: () {
-                    Navigator.pushNamed(context, '/payloadgenerate');
+                    Navigator.pushNamed(context, '/checkinout');
                   },
                   image: AppAssets.user,
                   // active: false,

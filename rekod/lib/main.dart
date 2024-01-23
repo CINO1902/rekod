@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'package:rekod/features/checkingprocess/presentation/pages/checkinout.dart';
 import 'package:rekod/features/onboarding/presentation/pages/homepage.dart';
 import 'package:rekod/features/onboarding/presentation/pages/login.dart';
 import 'package:rekod/features/payment/presentation/pages/payment.dart';
@@ -44,6 +45,7 @@ class _myAppState extends State<myApp> {
           '/payloadgenerate': (context) => const GeneratePayload(),
           '/payment': (context) => const Payment(),
           '/Qrcode': (context) => const QRcode(),
+          '/checkinout': (context) => const CheckInOut(),
         });
   }
 }
