@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:qr_code_scanner/qr_code_scanner.dart';
+
 import 'package:rekod/features/qrgenerate/presentation/pages/qrcode.dart';
 
 class CheckInOut extends StatelessWidget {
